@@ -105,7 +105,7 @@ main div div p{
     font-size: 1em;
     color: black;
 }
-.venta{
+section{
     width: 100%;
     height: 100%;
     display: flex;
@@ -113,7 +113,7 @@ main div div p{
     align-items: center;
     flex-direction: column;
 }
-.venta .head-mercado{
+section .head-mercado{
     width: 100%;
     height: 20%;
     background-color: #588F58;
@@ -124,7 +124,7 @@ main div div p{
     justify-content: center;
 }
 
-.venta .articulos{
+section .articulos{
     width: 90%;
     height: 90%;
     display: flex;
@@ -132,19 +132,19 @@ main div div p{
     align-items: center;
     flex-direction: row;
 }
-.venta .articulos div img{
+section .articulos div img{
     width: 240px;
     height: 240px;
     border-radius: 30%;
 }
-.venta .articulos div p{
+section .articulos div p{
     font-size: 1em;
     color: black;
     text-align: center;
 }
 .consulta{
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
