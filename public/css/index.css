@@ -105,26 +105,10 @@ main div div p{
     font-size: 1em;
     color: black;
 }
-section{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-section .head-mercado{
-    width: 100%;
-    height: 20%;
-    background-color: #588F58;
-    border-top: 0.2em black solid;
-    border-bottom: 0.2em black solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/*Mercado*/
 
-section .articulos{
+
+.consulta .articulos{
     width: 90%;
     height: 90%;
     display: flex;
@@ -132,19 +116,20 @@ section .articulos{
     align-items: center;
     flex-direction: row;
 }
-section .articulos div img{
+.consulta .articulos div img{
     width: 240px;
     height: 240px;
     border-radius: 30%;
 }
-section .articulos div p{
+.consulta .articulos div p{
     font-size: 1em;
     color: black;
     text-align: center;
 }
+/*Formulario*/
 .consulta{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,11 +197,11 @@ section .articulos div p{
         align-items: center;
         text-align: center;
     }
-    section .articulos{
+    .consulta .articulos{
     flex-direction: column;
     align-items: center;
     }
-    section .articulos div img{
+    .consulta .articulos div img{
         width: 60px;
         height: 60px;
         border-radius: 30%;
