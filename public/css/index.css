@@ -106,9 +106,26 @@ main div div p{
     color: black;
 }
 /*Mercado*/
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .head-mercado{
+    width: 100%;
+    height: 20%;
+    background-color: #588F58;
+    border-top: 0.2em black solid;
+    border-bottom: 0.2em black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-.consulta .articulos{
+section .articulos{
     width: 90%;
     height: 90%;
     display: flex;
@@ -116,12 +133,12 @@ main div div p{
     align-items: center;
     flex-direction: row;
 }
-.consulta .articulos div img{
+section .articulos div img{
     width: 240px;
     height: 240px;
     border-radius: 30%;
 }
-.consulta .articulos div p{
+section .articulos div p{
     font-size: 1em;
     color: black;
     text-align: center;
@@ -197,11 +214,11 @@ main div div p{
         align-items: center;
         text-align: center;
     }
-    .consulta .articulos{
+    section .articulos{
     flex-direction: column;
     align-items: center;
     }
-    .consulta .articulos div img{
+    section .articulos div img{
         width: 60px;
         height: 60px;
         border-radius: 30%;
