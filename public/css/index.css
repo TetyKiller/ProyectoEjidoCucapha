@@ -106,8 +106,8 @@ main div div p{
     color: black;
 }
 section{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +143,8 @@ section .articulos div p{
     text-align: center;
 }
 .consulta{
-    width: 100%;
-    height: 50%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
