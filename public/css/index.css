@@ -170,7 +170,12 @@ section .articulos div p{
     align-items: center;
     flex-direction: column;
 }
-
+footer{
+    width: 100%;
+    height: 20%;
+    border-top: 0.2em black solid;
+    background-color: #588F58;
+}
 @media only screen and (min-width: 767px) {
     header p{
         font-size: 2.5em;
